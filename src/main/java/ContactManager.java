@@ -1,5 +1,3 @@
-package com.programming.techie;
-
 import java.util.Collection;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -34,4 +32,5 @@ public class ContactManager {
         return String.format("%s-%s", contact.getFirstName(), contact.getLastName());
     }
 }
+
 
